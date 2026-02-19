@@ -48,7 +48,16 @@ The Beam Data Intelligence Dashboard provides a multi-dimensional view of the co
 
 ## ⚙️ Setup Instructions
 
-### 1. Prerequisites
+### Quick Start
+To launch the entire stack (AWS Tunnel, FastAPI Backend, React Frontend) simultaneously in separate terminal tabs, run:
+```bash
+./start_project.sh
+```
+
+### Manual Setup Steps
+If you prefer managing the components manually:
+
+#### 1. Prerequisites
 - **Node.js** (v18+)
 - **Python** (v3.10+)
 - **AWS CLI** (for DB tunnel access)
