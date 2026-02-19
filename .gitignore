@@ -1,0 +1,23 @@
+# Environment variables
+.env
+backend/.env
+
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Build files
+dist/
+build/
+
+# Binaries
+backend/session-manager-plugin

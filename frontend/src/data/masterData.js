@@ -1,5 +1,5 @@
 // Normalized dataset for the dashboard.
-// rawData is your full feed; we transform it into:
+// rawData is full feed; we transform it into:
 // - metrics: 0–5 scores (scaled from IT spend/tech count/rank placeholders)
 // - profile: simple insights (description, HQ, employees, etc.)
 // - raw: untouched source data
@@ -17,6 +17,7 @@ const rawData = [
     it_spend: 1467000,
     industries: ["AI", "Consulting", "Corporate Training", "IT"],
     tech_count: 4,
+    heat_score: 86,
     founders: ["Shaohua Zhang"],
     website: "http://beamdata.ca/",
     products: ["AI Strategy", "AI Implementation", "AI Infrastructure", "Data Analytics"]
@@ -33,6 +34,7 @@ const rawData = [
     it_spend: 421514,
     industries: ["Management Consulting", "Project Management"],
     tech_count: 34,
+    heat_score: 58,
     founders: [],
     website: "http://bronson.ca",
     products: ["AI & Automation Consulting", "Data & Tech Consulting", "Project Management"]
@@ -49,6 +51,7 @@ const rawData = [
     it_spend: 223141,
     industries: ["Mobile", "Software"],
     tech_count: 9,
+    heat_score: 44,
     founders: ["Asif Bakar"],
     website: "http://www.xorbix.com",
     products: ["Custom Software Dev", "Mobile App Dev", "Managed SaaS"]
@@ -65,6 +68,7 @@ const rawData = [
     it_spend: 263340,
     industries: ["Analytics", "IT", "Outsourcing"],
     tech_count: 2,
+    heat_score: 12,
     founders: ["Misha Zhyruk"],
     website: "https://www.data212.pro",
     products: []
@@ -81,6 +85,7 @@ const rawData = [
     it_spend: 46852050,
     industries: ["Analytics", "AI", "Consulting", "IT"],
     tech_count: 35,
+    heat_score: 78,
     founders: ["Shub Bhowmick", "Sumit Mehra", "Shashank Dubey"],
     website: "http://tredence.com",
     products: ["ATOM.AI", "Customer Cosmos", "Supply Chain Control Tower", "Sancus Data Quality"]
@@ -97,6 +102,7 @@ const rawData = [
     it_spend: 16974741,
     industries: ["BI", "Data Governance", "Data Integration", "Generative AI"],
     tech_count: 32,
+    heat_score: 74,
     founders: ["Jan Cervinka", "Jan Mrazek", "Petr Jech"],
     website: "https://adastracorp.com",
     products: ["Data Governance", "Master Data Management", "Data Mesh", "Data Quality"]
@@ -113,6 +119,7 @@ const rawData = [
     it_spend: 3219105,
     industries: ["Cloud Data", "E-Commerce", "IoT", "Web Dev"],
     tech_count: 73,
+    heat_score: 69,
     founders: ["Nitin Gupta"],
     website: "https://www.ongraph.com",
     products: ["AI Development", "Voice Agent", "Blockchain Development", "White Label Apps"]
@@ -129,6 +136,7 @@ const rawData = [
     it_spend: 27429465,
     industries: ["Architecture", "IT", "Management Consulting"],
     tech_count: 56,
+    heat_score: 82,
     founders: ["Philippe Corrot"],
     website: "http://www.keyrus.com",
     products: ["Data & Digital Strategy", "AI Solutions", "Enterprise Performance Mgmt"]
@@ -145,6 +153,7 @@ const rawData = [
     it_spend: 848737,
     industries: ["AI", "Blockchain", "Product Design", "Web3"],
     tech_count: 21,
+    heat_score: 71,
     founders: ["Rajeev Sharma"],
     website: "https://www.markovate.com",
     products: ["Generative AI", "Adaptive AI", "Digital Twin", "Virtual Coaching"]
@@ -161,6 +170,7 @@ const rawData = [
     it_spend: 1055134,
     industries: ["Fintech", "Health Care", "Mobile Apps", "IoT"],
     tech_count: 37,
+    heat_score: 64,
     founders: [],
     website: "https://synergogroup.net/",
     products: ["Custom Apps", "AI & Big Data", "DevOps", "Cloud Computing"]
@@ -177,6 +187,7 @@ const rawData = [
     it_spend: 1740220,
     industries: ["AI", "Big Data", "Machine Learning"],
     tech_count: 20,
+    heat_score: 55,
     founders: ["Shaz Ahmed"],
     website: "http://www.denologix.com/",
     products: []
@@ -193,6 +204,7 @@ const rawData = [
     it_spend: 733861,
     industries: ["Analytics", "Data Mining", "Machine Learning", "Software"],
     tech_count: 43,
+    heat_score: 62,
     founders: ["Ivan Tankoyeu", "Sergey Sukhanov"],
     website: "https://aisuperior.com/",
     products: ["AI Software Dev", "AI Consulting", "Generative AI", "AI Training"]
