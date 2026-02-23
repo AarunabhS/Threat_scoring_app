@@ -1,10 +1,12 @@
 #!/bin/bash
 set -ex
 
-# Use environment variables for credentials
-# export AWS_ACCESS_KEY_ID="..."
-# export AWS_SECRET_ACCESS_KEY="..."
-# export AWS_DEFAULT_REGION="..."
+# Load environment variables from .env
+if [ -f "backend/.env" ]; then
+    set -a
+    source backend/.env
+    set +a
+fi
 
 # Plugin path
 export PATH="$PATH:$(pwd)/backend"
